@@ -77,56 +77,6 @@ block content
 				h2(class="h6 mb-0") Network Summary
 			div(class="card-body")
 				div(class="row")
-<<<<<<< HEAD
-					div(class=networkSummaryColumnClass)
-						div(class="float-left", style="height: 40px; width: 40px;")
-							span
-								i(class="fas fa-tachometer-alt fa-2x mr-2", style="margin-top: 6px;")
-						//- var hashrateData = utils.formatLargeNumber(miningInfo.networkhashps, 3);
-						
-						span(class="font-weight-bold") Hashrate 
-
-						p(class="lead")
-							span #{hashrateData[0]} 
-							span.border-dotted(title=`${hashrateData[1].abbreviation}H = ${hashrateData[1].name}-hash (x10^${hashrateData[1].exponent})`, data-toggle="tooltip") #{hashrateData[1].abbreviation}H/s
-
-					if (txStats)
-						div(class=networkSummaryColumnClass)
-							div(class="float-left", style="height: 40px; width: 40px;")
-								span
-									i(class="fas fa-sign-out-alt fa-2x mr-2", style="margin-top: 6px; margin-left: 3px;")
-
-							span(class="font-weight-bold") Total Transactions
-
-							p(class="lead") #{txStats.totalTxCount.toLocaleString()}
-
-					div(class=networkSummaryColumnClass)
-						div(class="float-left", style="height: 40px; width: 40px;")
-							span
-								i(class="fas fa-unlock-alt fa-2x mr-2", style="margin-top: 6px; margin-left: 3px;")
-
-						span(class="font-weight-bold") Unconfirmed Transactions
-
-						p(class="lead") #{mempoolInfo.size.toLocaleString()} tx 
-							- var mempoolBytesData = utils.formatLargeNumber(mempoolInfo.usage, 2);
-							small(class="text-muted font-weight-light") (#{mempoolBytesData[0]} #{mempoolBytesData[1].abbreviation}B)
-
-					div(class=networkSummaryColumnClass)
-						div(class="float-left", style="height: 40px; width: 40px;")
-							span
-								i(class="fas fa-bolt fa-2x mr-2", style="margin-top: 6px; margin-left: 6px;")
-
-						- var chainworkData = utils.formatLargeNumber(parseInt("0x" + getblockchaininfo.chainwork), 2);
-						span(class="font-weight-bold") Chainwork
-						
-						p(class="lead")
-							span.mr-2.border-dotted(data-toggle="tooltip", title=getblockchaininfo.chainwork.replace(/^0+/, ''))
-								span #{chainworkData[0]}
-								span  x 10
-								sup #{chainworkData[1].exponent}
-								span  hashes
-=======
->>>>>>> 6de200ac5c84e367d3b24c2f82df4ad9b47d377e
 					
 					div(class=networkSummaryColumnClass)
 						div(class="float-left", style="height: 40px; width: 40px; font-size: 12px;")

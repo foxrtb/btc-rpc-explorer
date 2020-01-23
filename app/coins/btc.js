@@ -70,20 +70,20 @@ module.exports = {
 	defaultCurrencyUnit:currencyUnits[0],
 	feeSatoshiPerByteBucketMaxima: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 50, 75, 100, 150],
 	genesisBlockHashesByNetwork:{
-		"main":    "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+		"main":    "000008566319bcaf616d171485dc4dbe31bb010d8f712ef137458cd7fa931ff8",
 		"test":    "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
 		"regtest": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"
 	},
 	genesisCoinbaseTransactionIdsByNetwork: {
-		"main":    "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+		"main":    "bcfbcf815684b2e1890e32fe972741dcd8d8095c845cffae7ee9fb3613ac8926",
 		"test":    "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
 		"regtest": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"
 	},
 	genesisCoinbaseTransactionsByNetwork:{
 		"main": {
 			"hex": "01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff0804ffff001d02fd04ffffffff0100f2052a01000000434104f5eeb2b10c944c6b9fbcfff94c35bdeecd93df977882babc7f3a2cf7f5c81d3b09a68db7f0e04f21de5d4230e75e6dbe7ad16eefe0d4325a62067dc6f369446aac00000000",
-			"txid": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
-			"hash": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+			"txid": "bcfbcf815684b2e1890e32fe972741dcd8d8095c845cffae7ee9fb3613ac8926",
+			"hash": "bcfbcf815684b2e1890e32fe972741dcd8d8095c845cffae7ee9fb3613ac8926",
 			"size": 204,
 			"vsize": 204,
 			"version": 1,
@@ -99,18 +99,18 @@ module.exports = {
 					"value": 50,
 					"n": 0,
 					"scriptPubKey": {
-						"asm": "04f5eeb2b10c944c6b9fbcfff94c35bdeecd93df977882babc7f3a2cf7f5c81d3b09a68db7f0e04f21de5d4230e75e6dbe7ad16eefe0d4325a62067dc6f369446a OP_CHECKSIG",
+						"asm": "0423d6ea539691df878c0c8e35458436d2fc9e23db5b612b71d6d03391494a4fdac1b3096019ca8c8388e9b9d178ce94a006295b7a2730a1b70ef1e004e581fcb4 OP_CHECKSIG",
 						"hex": "4104f5eeb2b10c944c6b9fbcfff94c35bdeecd93df977882babc7f3a2cf7f5c81d3b09a68db7f0e04f21de5d4230e75e6dbe7ad16eefe0d4325a62067dc6f369446aac",
 						"reqSigs": 1,
 						"type": "pubkey",
 						"addresses": [
-							"1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+							"Ms5MFPC1uiB8h2aeauudTLgVgMN58Wra4X"
 						]
 					}
 				}
 			],
-			"blockhash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-			"time": 1230988505,
+			"blockhash": "bcfbcf815684b2e1890e32fe972741dcd8d8095c845cffae7ee9fb3613ac8926",
+			"time": 1576810792,
 			"blocktime": 1230988505
 		},
 		"test": {

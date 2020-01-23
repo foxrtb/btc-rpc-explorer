@@ -1,6 +1,6 @@
 var btc = require("./coins/btc.js");
 var ltc = require("./coins/ltc.js");
-var ltc = require("./coins/mil.js");
+var mil = require("./coins/mil.js");
 
 module.exports = {
 	"BTC": btc,
